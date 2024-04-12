@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylebasic.css">
+</head>
+
+<body>
+    <!--menu navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #141955;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" width="90%" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenuId"
+                aria-controls="navbarMenuId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenuId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Carrito.html">Computadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="incioSecion.html">inciar sesion admi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sesion.html"></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- grid descripcion e imagen-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <br></br>
+                <br></br>
+                <br></br>
+                <img src="pc6.jpg" width="500" height="400">
+            </div>
+            <div class="col-md-3">
+                <br></br>
+                <br></br>
+                <br></br>
+                <h1 style="color:white">Descripcion</h1>
+                <p>Nombre:</p>
+                <p>PRECIO:</p>
+                <p>ram:</p>
+                <p>disco duro:</p>
+                <p>USB:</p>
+                <br></br>
+                <h1 style="color:white">Mas Información</h1>
+                <p>procesador</p>
+                <p>color:</p>
+                <p>peso:</p>
+
+            </div>
+            <div class="col-md-3">
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>PC RANCIO</p>
+                <p>10$</p>
+                <p>2GB</p>
+                <p>10T</p>
+                <p>1 entrada</p>
+                <br>
+                <h1></h1></br>
+                <br>
+                <h1></h1></br>
+                <br>
+                <h1></h1></br>
+                <p>no tiene</p>
+                <p>carton</p>
+                <p>100kg</p>
+                <!-- Boton Modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    AÑADIR AL CARRITO!!
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">COMPRA</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                TU PC A SIDO AÑADIDO AL CARRITO
+                                <br></br>
+                                PC RANCIO X1    10$
+                                <br></br>
+                                TOTAL A PAGAR   10$
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCELAR </button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">PAGAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

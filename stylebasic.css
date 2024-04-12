@@ -1,0 +1,52 @@
+body{
+    background-image: url(fondo2.jpg);
+    background-size:cover;
+}
+
+.form-container label {
+    font-weight:600
+}
+
+
+.form-container { /*BORDE DE REGISTRO*/
+    border: 1% solid #ffffff; /* Grosor y color del borde */
+    border-radius: 1px; /* Borde redondeado */
+    padding: 30px; /* Espaciado interno */
+    background-color: transparent;/* Color de fondo */
+    margin: 20%;
+}
+
+.top-margin {
+    margin-top: 100px; /* Puedes ajustar este valor según tu necesidad */
+}
+.move-left {
+    margin-left: -20px; /* Puedes ajustar este valor según tu necesidad */
+}
+@media (max-width: 576px) {
+    .form-container {
+        padding: 15px;
+    }
+}
+
+.carousel-item img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes del carrusel */
+}
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+n:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+.montserrat-index {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+  }
+
+p{
+    margin-left:5% ;
+    color: #ffffff;
+}
